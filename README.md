@@ -12,4 +12,3 @@ It's not that easy rip you have to create a new Expo project then copy everythin
 https://docs.expo.io/introduction/faq/?redirected  
 
 But then you'll be able to run it from Expo Go app on phone
-
