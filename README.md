@@ -24,6 +24,7 @@ But then you'll be able to run it from Expo Go app on phone
 * `platform` contains code that is shared across multiple features
 
 ## Notes
+### Code style
 `eslint` and `prettier` are used to enforce good code styling, with `husky` to automatically run the process during a git commit.
 
 You should install the `Prettier` and `ESLint` VSCode extensions.
@@ -39,3 +40,9 @@ settings.json
     "typescriptreact"
 ]
 ```
+To check your styling:
+* Run `npm run lint` to check
+* `npm run lint -- --fix` to lint and apply all the suggestions
+* `cmd + shift + p` (on mac) --> "Format file" or "Format selections" to run `Prettier`
+
+Note that `tabSpace` is 2, so you may have to adjust your VSCode settings to match.
